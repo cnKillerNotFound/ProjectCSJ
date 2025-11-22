@@ -1,0 +1,25 @@
+{
+    "test_accuracy": 0.6825,
+    "test_auc": 0.5036633870630103,
+    "best_params": {
+        "classifier__max_depth": 10,
+        "classifier__min_samples_split": 2,
+        "classifier__n_estimators": 50
+    },
+    "feature_names": [
+        "IQ",
+        "Prev_Sem_Result",
+        "CGPA",
+        "Academic_Performance",
+        "Internship_Experience",
+        "Extra_Curricular_Score",
+        "Communication_Skills",
+        "Projects_Completed",
+        "Academic_Stability",
+        "Overall_Performance",
+        "Skill_Composite",
+        "Productivity_Score",
+        "IQ_Academic_Interaction",
+        "Internship_Projects"
+    ]
+}
