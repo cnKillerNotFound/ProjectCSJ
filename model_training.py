@@ -13,8 +13,6 @@ import json
 import warnings
 warnings.filterwarnings('ignore')
 
-df = pd.read_csv('大学生就业去向影响因素数据集.csv', encoding='Windows-1252')
-
 class PlacementPredictor:
     def __init__(self):
         self.model = None
@@ -239,6 +237,8 @@ def train_and_save_model():
     # 初始化预测器
     predictor = PlacementPredictor()
     
+    df = pd.read_csv('employment_data.csv', encoding='UTF-8')
+
     print(f"数据集大小: {df.shape}")
     
     # 数据预处理

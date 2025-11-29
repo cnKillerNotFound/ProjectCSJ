@@ -1,10 +1,10 @@
 {
-    "test_accuracy": 0.6825,
-    "test_auc": 0.5036633870630103,
+    "test_accuracy": 0.7190909090909091,
+    "test_auc": 0.7471480556040504,
     "best_params": {
         "classifier__max_depth": 10,
-        "classifier__min_samples_split": 2,
-        "classifier__n_estimators": 50
+        "classifier__min_samples_split": 5,
+        "classifier__n_estimators": 200
     },
     "feature_names": [
         "IQ",
